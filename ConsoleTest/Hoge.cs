@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleTest
 {
-    class Program
+    class Hoge
     {
-        static void Main(string[] args)
+        public Hoge()
         {
-            Hoge hoge = new Hoge();
-            Console.ReadKey();
+            Console.WriteLine("Hoge");
         }
     }
 }
